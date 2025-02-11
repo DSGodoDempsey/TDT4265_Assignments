@@ -49,9 +49,10 @@ def manipulate_matrix(A, B, c):
 # Example usage:
 A = np.array([[1, 2, 3], [4, 5, 6]])
 B = np.array([[1, 4], [2, 5], [3, 6]])
+
 c = 10
 result = manipulate_matrix(A, B, c)
 # print("Results:", result)
 
 
-print(result.shape)
+print(result)

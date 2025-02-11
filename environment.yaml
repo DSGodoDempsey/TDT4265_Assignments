@@ -4,6 +4,7 @@ channels:
   - defaults
 dependencies:
   - python=3.10
+  - pip
   - pip:
       - pip
       - torch
@@ -18,3 +19,4 @@ dependencies:
       - pillow
       - tqdm
       - pandas
+      - jupyter-notebook
