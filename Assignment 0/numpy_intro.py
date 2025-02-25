@@ -56,3 +56,18 @@ result = manipulate_matrix(A, B, c)
 
 
 print(result)
+
+
+A = np.array([[1, 2, 3],
+             [4, 5, 6]])
+print("A summed along axis 0 without keepdims:\n")
+print(np.sum(A, axis = 0, keepdims = False))
+
+print("A summed along axis 0 with keepdims:\n")
+print(np.sum(A, axis = 0, keepdims = True))
+
+V = np.array([2, -1, 3])
+W = np.array([4, 0, -2])
+
+print(np.dot(V, W))
+print(np.linalg.norm(W))
